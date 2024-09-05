@@ -159,12 +159,15 @@ nav{
 }
 .first-q h1{
     margin: 20px 0 20px 0;
-    font-weight: 800;
+    font-weight: 700;
 }
 .first-q p{
     margin: 20px 0 20px 0;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
+}
+.first-q h5{
+    font-size: 17px;
 }
 
 .table-con h1{
@@ -179,7 +182,7 @@ nav{
 }
 
 .table-con table td{
-    padding: 20px 20px 20px 20px;
+    padding: 20px 10px 10px 20px;
 }
 td{
     border: 1px solid rgb(96, 96, 96);
@@ -189,4 +192,42 @@ table li{
 }
 table p{
     margin: 20px 0 20px 0;
+}
+
+.social{
+    margin: 20px 0 20px 0;
+}
+
+.btn-2 .b{
+    height: 30px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cards{
+    display: flex;
+}
+
+.card-1{
+    height: 250px;
+    width: 170px;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px  rgb(87, 87, 87);
+    margin: 20px 10px 10px 10px;
+}
+.card-1 img{
+    width: 100%;
+}
+
+.card-1 h2{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+}
+.card-1 p{
+    font-size: 14px;
+    margin: 15px 0 0 0;
 }
