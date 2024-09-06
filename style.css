@@ -24,11 +24,15 @@ nav{
 }
 
 #nav-bar{
-    background-color: #ffffff;
+    background-color: transparent;
     color: #fff;
 }
 .dark-theme #nav-bar{
     background-color: rgb(0, 0, 0);
+    color: #333;
+}
+.light-theme #nav-bar{
+    background-color: rgb(255, 255, 255);
     color: #333;
 }
 
@@ -48,19 +52,21 @@ nav{
 .serh input{
     height: 40px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     padding-left: 20px;
     font-weight: 700;
     font-size: 16px;
+    border: 1px solid gray;
 }
 .serh button{
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     font-weight: 700;
     font-size: 16px;
     height: 40px;
     width: 70px;
     background-color: rgb(96, 171, 232);
     color: aliceblue;
+    border: none;
 }
 
 
